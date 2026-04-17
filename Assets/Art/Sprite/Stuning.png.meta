@@ -1,0 +1,595 @@
+fileFormatVersion: 2
+guid: 7bdafd9647995fb4f98787b77bd9dede
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7714087469155228899
+    second: Stuning_0
+  - first:
+      213: 2577715278560859426
+    second: Stuning_1
+  - first:
+      213: -4434434061633414417
+    second: Stuning_2
+  - first:
+      213: -1414514214572843630
+    second: Stuning_3
+  - first:
+      213: 3194034096832363312
+    second: Stuning_4
+  - first:
+      213: -6264233312262021693
+    second: Stuning_5
+  - first:
+      213: 7644548036258962347
+    second: Stuning_6
+  - first:
+      213: 830019715564265567
+    second: Stuning_7
+  - first:
+      213: -5285665204910737259
+    second: Stuning_8
+  - first:
+      213: -8899704340934154989
+    second: Stuning_9
+  - first:
+      213: 786030790501053028
+    second: Stuning_10
+  - first:
+      213: 4899954227011373581
+    second: Stuning_11
+  - first:
+      213: -4118660098899020036
+    second: Stuning_12
+  - first:
+      213: 305351845995365337
+    second: Stuning_13
+  - first:
+      213: -8662761623044372230
+    second: Stuning_14
+  - first:
+      213: 898830683198965279
+    second: Stuning_15
+  - first:
+      213: 5661862657323837984
+    second: Stuning_16
+  - first:
+      213: 4580619423992235158
+    second: Stuning_17
+  - first:
+      213: -3236933118481426430
+    second: Stuning_18
+  - first:
+      213: -8838324788299500176
+    second: Stuning_19
+  - first:
+      213: -5638576031032456233
+    second: Stuning_20
+  - first:
+      213: -2858388688120671115
+    second: Stuning_21
+  - first:
+      213: -6961541819649813818
+    second: Stuning_22
+  - first:
+      213: 3133282661824124410
+    second: Stuning_23
+  - first:
+      213: 8909480074315384447
+    second: Stuning_24
+  - first:
+      213: 9145905008736919014
+    second: Stuning_25
+  - first:
+      213: 3735515446266493233
+    second: Stuning_26
+  - first:
+      213: -2635325761098015524
+    second: Stuning_27
+  - first:
+      213: -452659151408326970
+    second: Stuning_28
+  - first:
+      213: 5380257265982648232
+    second: Stuning_29
+  - first:
+      213: -4092349735683492904
+    second: Stuning_30
+  - first:
+      213: -8536699469970065108
+    second: Stuning_31
+  - first:
+      213: 366974904200117859
+    second: Stuning_32
+  - first:
+      213: -2554275036232203784
+    second: Stuning_33
+  - first:
+      213: -7179900174704958741
+    second: Stuning_34
+  - first:
+      213: 3579219797995608982
+    second: Stuning_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Stuning_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 295
+        width: 180
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d13e5ba515e02f490800000000000000
+      internalID: -7714087469155228899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stuning_1
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 295
+        width: 180
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22597b67362e5c320800000000000000
+      internalID: 2577715278560859426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stuning_2
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 295
+        width: 180
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea927037b9b572c0800000000000000
+      internalID: -4434434061633414417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stuning_3
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 295
+        width: 180
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d15a6f0d2ae5ce0800000000000000
+      internalID: -1414514214572843630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stuning_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 197
+        width: 180
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03bbd2e961d735c20800000000000000
+      internalID: 3194034096832363312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stuning_5
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 197
+        width: 180
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd1478edf8f019a0800000000000000
+      internalID: -6264233312262021693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stuning_6
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 197
+        width: 180
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab10a9bfe3e61a60800000000000000
+      internalID: 7644548036258962347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stuning_7
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 197
+        width: 180
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5067ce9882d48b00800000000000000
+      internalID: 830019715564265567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stuning_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 180
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59837a3308b85a6b0800000000000000
+      internalID: -5285665204910737259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stuning_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 99
+        width: 180
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3152e98fd06ed7480800000000000000
+      internalID: -8899704340934154989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stuning_10
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 99
+        width: 180
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 462b552e6da88ea00800000000000000
+      internalID: 786030790501053028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stuning_11
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 99
+        width: 180
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0acfac8862200440800000000000000
+      internalID: 4899954227011373581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stuning_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 180
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf67c8e267497d6c0800000000000000
+      internalID: -4118660098899020036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stuning_13
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1
+        width: 180
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d34018d2e3dc3400800000000000000
+      internalID: 305351845995365337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stuning_14
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1
+        width: 180
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8cd8c7330b7c780800000000000000
+      internalID: -8662761623044372230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stuning_15
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1
+        width: 180
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f16cb418eb9497c00800000000000000
+      internalID: 898830683198965279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: dd1cefceea562b54ea65013671f9a15c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":180.0,"y":98.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Stuning_0: -7714087469155228899
+      Stuning_1: 2577715278560859426
+      Stuning_10: 786030790501053028
+      Stuning_11: 4899954227011373581
+      Stuning_12: -4118660098899020036
+      Stuning_13: 305351845995365337
+      Stuning_14: -8662761623044372230
+      Stuning_15: 898830683198965279
+      Stuning_2: -4434434061633414417
+      Stuning_3: -1414514214572843630
+      Stuning_4: 3194034096832363312
+      Stuning_5: -6264233312262021693
+      Stuning_6: 7644548036258962347
+      Stuning_7: 830019715564265567
+      Stuning_8: -5285665204910737259
+      Stuning_9: -8899704340934154989
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
