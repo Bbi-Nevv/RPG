@@ -12,8 +12,6 @@ public class Archer : EnemyController
     public void Shoot()
     {
         Instantiate(arrowPrefab, shootPoint.position, shootPoint.rotation);
-        TakeVisitPlayer();
-
     }
 
 }

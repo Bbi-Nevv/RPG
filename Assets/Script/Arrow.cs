@@ -12,8 +12,8 @@ public class Arrow : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         archer = FindAnyObjectByType<Archer>();
-        archer.TakeVisitPlayer();
-        direction = archer.player.transform.position - transform.position;
+        Transform playerTransform = archer.TakeVisitPlayer();
+        direction = playerTransform.position - transform.position;
         movoment = direction.normalized;
         FlipArrow();
 

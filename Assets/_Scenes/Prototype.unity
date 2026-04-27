@@ -10369,7 +10369,7 @@ MonoBehaviour:
   TypesOfEnemy: 1
   attackRange: 4
   damage: 1
-  attackCooldown: 1
+  attackCooldown: 0.5
   isAttacking: 0
   moveSpeed: 2
   chaseRange: 6
