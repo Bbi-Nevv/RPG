@@ -8953,7 +8953,7 @@ Transform:
   m_GameObject: {fileID: 451634814}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.31, y: -4.95, z: 0}
+  m_LocalPosition: {x: 8.52, y: -5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10268,7 +10268,7 @@ Transform:
   m_GameObject: {fileID: 621725596}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.6913033, y: -4.6970453, z: 0}
+  m_LocalPosition: {x: -3.54, y: -4.42, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10367,21 +10367,112 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Archer
   TypesOfEnemy: 1
-  attackRange: 4
+  attackRange: 7
   damage: 1
   attackCooldown: 0.5
   isAttacking: 0
   moveSpeed: 2
-  chaseRange: 6
+  chaseRange: 10
   faceDirection: -1
   distanceToPlayer: 0.43
   player: {fileID: 0}
   rb: {fileID: 0}
   anim: {fileID: 0}
+  isPlayerInRange: 0
   Health_Enemy: {fileID: 0}
-  arrowSpeed: 10
   arrowPrefab: {fileID: 4640976145747873003, guid: 45e88b2981026a34f82d16a556a362de, type: 3}
   shootPoint: {fileID: 1981953120}
+  projectileMaxHeight: 4
+  trajectoryAnimationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1.8049803
+      outSlope: 1.8049803
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.55325687
+      value: 0.99861777
+      inSlope: -0.21487963
+      outSlope: -0.21487963
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0.0002632141
+      inSlope: -2.2347395
+      outSlope: -2.2347395
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  axisCorrectionAnimationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  projectileSpeedAnimationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.0000016959384
+      value: 1.0004568
+      inSlope: -0.7730823
+      outSlope: -0.7730823
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.29520687
+      value: 0.7722389
+      inSlope: -0.22496104
+      outSlope: -0.22496104
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0.32316023
+      outSlope: 0.32316023
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &628273517
 GameObject:
   m_ObjectHideFlags: 0
@@ -10603,6 +10694,7 @@ MonoBehaviour:
   player: {fileID: 0}
   rb: {fileID: 0}
   anim: {fileID: 0}
+  isPlayerInRange: 0
   Health_Enemy: {fileID: 0}
 --- !u!1 &629349839
 GameObject:
@@ -10632,7 +10724,7 @@ Transform:
   m_GameObject: {fileID: 629349839}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.05277133, y: -4.64244, z: -10}
+  m_LocalPosition: {x: 7.1572285, y: -4.69244, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10843,7 +10935,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &733801472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10868,6 +10960,7 @@ MonoBehaviour:
   player: {fileID: 0}
   rb: {fileID: 0}
   anim: {fileID: 0}
+  isPlayerInRange: 0
   Health_Enemy: {fileID: 0}
 --- !u!95 &733801473
 Animator:
@@ -11371,7 +11464,7 @@ RectTransform:
   m_Father: {fileID: 1912997687}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0.6, y: 1}
   m_AnchoredPosition: {x: -2.5028, y: 0}
   m_SizeDelta: {x: 5.0055, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -13905,7 +13998,7 @@ Transform:
   m_GameObject: {fileID: 1588938263}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.052775264, y: -1.1888199, z: -10}
+  m_LocalPosition: {x: 3.6436512, y: -1.1888199, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14690,8 +14783,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1433556452}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.6, y: 0}
+  m_AnchorMax: {x: 0.6, y: 1}
   m_AnchoredPosition: {x: -0.73, y: 0}
   m_SizeDelta: {x: 4.09, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}

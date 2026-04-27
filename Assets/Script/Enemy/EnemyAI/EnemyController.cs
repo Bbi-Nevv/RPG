@@ -29,7 +29,7 @@ public class EnemyController : MonoBehaviour
     public Rigidbody2D rb;
     public Animator anim;
 
-
+    public bool isPlayerInRange = false;
     public Health_Enemy Health_Enemy;
 
     /// <summary>
@@ -56,7 +56,7 @@ public class EnemyController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         Health_Enemy = GetComponent<Health_Enemy>();
-
+        
         ChangeState(idleState);
     }
 
@@ -92,13 +92,16 @@ public class EnemyController : MonoBehaviour
     public Transform TakeVisitPlayer()
     {
         Collider2D playerCollider = Physics2D.OverlapCircle(transform.position, chaseRange, LayerMask.GetMask("Player"));
+        
         if (playerCollider != null)
         {
             player = playerCollider.transform;
+            isPlayerInRange = true;
         }
         else
         {
-            player = null;
+            player = player = GameObject.FindGameObjectWithTag("Player").transform;
+            isPlayerInRange = false;
         }
         return player;
     }

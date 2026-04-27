@@ -38,9 +38,23 @@ public class AttackState : IState
                 break;
             case TypesOfEnemy.Archer:
                 CheckAnimIsEnd("Shoot");
-                if (Time.time >= attackTimer + attackCooldown)
+                if (Time.time >= attackTimer + attackCooldown && enemy.isPlayerInRange)
                     enemy.anim.Play("Shoot");
                 break;
+        }
+        Vector2 direction = (enemy.player.position - enemy.transform.position).normalized;
+        // Flip the enemy sprite based on the player's position
+        if (direction.x > 0)
+        {
+            enemy.faceDirection = 1f;
+            enemy.transform.localScale = new Vector3(enemy.faceDirection, 1f, 1f);
+            enemy.Health_Enemy.healthBar.transform.localScale = new Vector3(enemy.faceDirection, 1f, 1f);
+        }
+        else if (direction.x < 0)
+        {
+            enemy.faceDirection = -1f;
+            enemy.transform.localScale = new Vector3(enemy.faceDirection, 1f, 1f);
+            enemy.Health_Enemy.healthBar.transform.localScale = new Vector3(enemy.faceDirection, 1f, 1f);
         }
 
     }
