@@ -5,7 +5,7 @@ public class Arrow : MonoBehaviour
     private Rigidbody2D rb;
     public float speed = 10f;
     public float maxSpeed = 10f;
-    private float lifeTime = 5f;
+    //private float lifeTime = 5f;
     private Vector2 movoment;
     private Archer archer;
     private Vector2 direction;
